@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[捕鱼达人-FishJoy]BY-Sherry</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background:#000;
+            text-align:center;
+            overflow:hidden;
+        }
+        #mycanvas{
+            margin:30px auto;
+        }
+    </style>
+    <script type="text/javascript" src="js/underscore-min.js"></script>
+    <script type="text/javascript" src="js/SimpleJavaScriptInheritance.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/Actor.js"></script>
+    <script type="text/javascript" src="js/Background.js"></script>
+    <script type="text/javascript" src="js/Sence.js"></script>
+    <script type="text/javascript" src="js/Fish.js"></script>
+    <script type="text/javascript" src="js/CannonBottom.js"></script>
+    <script type="text/javascript" src="js/Cannon.js"></script>
+    <script type="text/javascript" src="js/Bullet.js"></script>
+    <script type="text/javascript" src="js/Web.js"></script>
+    <script type="text/javascript" src="js/DieFish.js"></script>
+    <script type="text/javascript" src="js/Coin.js"></script>
+    <script type="text/javascript" src="js/Score.js"></script>
+    <script type="text/javascript" src="js/CoinText.js"></script>
+
+</head>
+<body>
+<canvas id="mycanvas" width="800" height="600"></canvas>
+</body>
+<script type="text/javascript">
+    var g=new Game("mycanvas","R.txt");
+</script>
+</html>
